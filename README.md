@@ -17,9 +17,9 @@
 
 ### Connect with me:
 
-[<img align="left" alt="Profile | LinkedIn" width="22px" src="https://www.svgrepo.com/show/70809/linkedin.svg" />](https://www.linkedin.com/in/divyan5h/)
-[<img align="left" alt="Profile | Instagram" width="22px" src="https://www.svgrepo.com/show/111199/instagram.svg" />](https://www.instagram.com/divyan5h.dev/)
-[<img align="left" alt="Profile | Twitter" width="22px" src="https://www.svgrepo.com/show/183608/twitter.svg" />](https://twitter.com/DIVYAN5H_dev)
+[<img align="left" alt="Profile | LinkedIn" width="22px" src="https://www.svgrepo.com/show/70809/linkedin.svg" />]([https://www.linkedin.com/in/divyan5h/](https://www.linkedin.com/in/dhananjay-aggarwal6561/))
+[<img align="left" alt="Profile | Instagram" width="22px" src="https://www.svgrepo.com/show/111199/instagram.svg" />]([https://www.instagram.com/divyan5h.dev/](https://www.instagram.com/dhananjaydontknow?igsh=aWR6OW95Z25nazlp))
+
 
 <br />
 <br />
