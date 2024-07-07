@@ -5,7 +5,7 @@
 
 <br />
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manrope&size=22&duration=3000&color=FF540FB3&vCenter=true&height=22&lines=I'm+Dhananjay+!!;I'm+a+student+!!;I'm+a+Web+developer+!!)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manrope&size=22&duration=3000&color=FF540FB3&vCenter=true&height=22&lines=Hello+guys!!I'm+Dhananjay+!!;I'm+a+student+!!;I'm+a+Developer+!!)](https://git.io/typing-svg)
 
 - 🌱 Polishing skills
 - 👯 Looking to collaborate with other creators
@@ -45,15 +45,10 @@
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align=center>
-  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=Abhinavks1405&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=Abhinavks1405&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
+  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjay6561&theme=react&border_radius=10" alt="streak stats"/>
+  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=dhananjay6561&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
   <br/>
   <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=dhananjay6561&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
 </div>
 
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dhananjay6561&theme=dark)
-
-<br />
-<br />
 
