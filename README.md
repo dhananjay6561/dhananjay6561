@@ -42,10 +42,10 @@
 <br />
 <br />
 
-\
+
 
 <h3 align="left">🔥 My Stats</h3>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dhananjay6561&theme=dracula" alt="dhananjay6561" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dhananjay6561&theme=darkhub" alt="dhananjay6561" /></a> </p>
 
 
 <h2 align="center">⚡ Stats ⚡</h2>
