@@ -8,8 +8,8 @@
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manrope&size=22&duration=3000&color=FF540FB3&vCenter=true&height=22&lines=Hello+guys!!;I'm+Dhananjay+!!;I'm+a+student+!!;I'm+a+Developer+!!)](https://git.io/typing-svg)
 
 - 🌱 Polishing skills
-- 👯 Looking to collaborate with other creators
-- 🥅 2024 Goals: Build a strong portfolio
+- 👯 Looking to collaborate with other creators. 
+- 🥅 2024 Goals: Building a strong portfolio
 
 
 <br />
