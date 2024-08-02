@@ -9,7 +9,7 @@
 
 - 🌱 Polishing skills.
 - 👯 Looking to collaborate with other creators. 
-- 🥅 2024 Goals: Building a strong portfolio
+- 🥅 2024 Goals: Building a strong portfolio.
 
 
 <br />
