@@ -66,3 +66,4 @@
 
 
 ![Visitor Count](https://profile-counter.glitch.me/dhananjay6561/count.svg)
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=dhananjay6561.dhananjay6561" />
