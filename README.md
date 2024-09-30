@@ -7,6 +7,11 @@
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manrope&size=22&duration=3000&color=FF540FB3&vCenter=true&height=22&lines=Hello+guys!!;I'm+Dhananjay+!!;I'm+a+student+!!;I'm+a+Developer+!!)](https://git.io/typing-svg)
 
+![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
+
+![Visitor Count](https://profile-counter.glitch.me/{dhananjay6561}/count.svg)
+
+![Visitor Count](https://profile-counter.glitch.me/dhananjay6561/count.svg)
 - 🌱 Polishing skills.
 - 👯 Looking to collaborate with other creators. 
 - 🥅 2024 Goals: Building a strong portfolio.
