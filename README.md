@@ -5,7 +5,7 @@
 
 <br />
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manrope&size=22&duration=3000&color=FF540FB3&vCenter=true&height=22&lines=Heyy+guys!!;I'm+Dhananjay+!!;I'm+a+student+!!;I'm+a+Developer+!!)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manrope&size=22&duration=3000&color=FF540FB3&vCenter=true&height=22&lines=Hey+guys!!;I'm+Dhananjay+!!;I'm+a+student+!!;I'm+a+Developer+!!)](https://git.io/typing-svg)
 
 
 - 🌱 Polishing skills.
