@@ -1,16 +1,10 @@
-<br />
-
-
-# Heyy there,
-
-<br />
-
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manrope&size=22&duration=3000&color=FF540FB3&vCenter=true&height=22&lines=Hey+guys!!;I'm+Dhananjay+!!;I'm+a+student+!!;I'm+a+Developer+!!)](https://git.io/typing-svg)
+# Hi there, I'm Dhananjay <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
 
 
 - 🌱 Polishing skills.
+- 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas.
 - 👯 Looking to collaborate with other creators. 
-- 🥅 2024 Goals: Building a strong portfolio.
+
 
 
 <br />
@@ -49,20 +43,29 @@
 <br />
 <br />
 
+| 🔥 Streak | 📊 Stats |
+| --- | --- |
+| <img src="https://github-readme-streak-stats.herokuapp.com?user=akshat-OwO&theme=nightowl&hide_border=true" width="100%"> | <img src="https://github-readme-stats.vercel.app/api?username=dhananjay6561&count_private=trueshow_icons=true&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40&hide_border=true&rank_icon=github&show_icons=true" width="100%"> |
+
+<h2 align="center">📈 Other stats</h2>
 
 
-<h3 align="left">🔥 My Stats 🔥</h3>
+<a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
+  <img src="https://stats.quine.sh/dhananjay6561/github?theme=dark" width="48%"> 
+</a>
+<a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
+  <img src="https://stats.quine.sh/dhananjay6561/dependencies?theme=dark" width="48%"> 
+</a>
+
+<a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
+  <img src="https://stats.quine.sh/dhananjay6561/topics-over-time?theme=dark" width="48%">
+</a>
+<a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
+  <img src="https://stats.quine.sh/dhananjay6561/languages-over-time?theme=dark" width="48%">
+</a>
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dhananjay6561&theme=darkhub" alt="dhananjay6561" /></a> </p>
 
-
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<div align=center>
-  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjay6561&theme=react&border_radius=12" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=dhananjay6561&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
-  <br/>
-  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=dhananjay6561&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
-</div>
 
 
 ![Visitor Count](https://profile-counter.glitch.me/dhananjay6561/count.svg)
