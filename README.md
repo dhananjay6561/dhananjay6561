@@ -62,8 +62,6 @@
   <img src="https://stats.quine.sh/dhananjay6561/languages-over-time?theme=dark" width="48%">
 </a>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=dhananjay6561&limit=5&theme=transparent&combine_all_yearly_contributions=true)
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dhananjay6561&theme=darkhub" alt="dhananjay6561" /></a> </p>
 
