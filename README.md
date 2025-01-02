@@ -57,12 +57,13 @@
   <img src="https://stats.quine.sh/dhananjay6561/dependencies?theme=dark" width="48%"> 
 </a>
 
-<a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
-  <img src="https://stats.quine.sh/dhananjay6561/topics-over-time?theme=dark" width="48%">
-</a>
+
 <a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
   <img src="https://stats.quine.sh/dhananjay6561/languages-over-time?theme=dark" width="48%">
 </a>
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=dhananjay6561&limit=5&theme=transparent&combine_all_yearly_contributions=true)
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dhananjay6561&theme=darkhub" alt="dhananjay6561" /></a> </p>
 
