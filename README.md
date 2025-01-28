@@ -2,7 +2,7 @@
  
 
 - 🌱 Polishing skills. 
-- 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas.
+- 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas. 
 - 👯 Looking to collaborate with other creators. 
  
  
