@@ -38,7 +38,7 @@
 [<img align="left" alt="Figma" width="45px" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" />](#)
 [<img align="left" alt="Python" width="45px" src="https://www.vectorlogo.zone/logos/python/python-icon.svg" />](#)
 
-
+ 
 <br />
 <br />
 <br />
