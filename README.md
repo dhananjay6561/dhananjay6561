@@ -1,72 +1,91 @@
-# Hi there, I'm Dhananjay <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
- 
-   
-- 🌱 Polishing skills. 
-- 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas. 
-- 👯 Looking to collaborate with other creators.  
-       
-     
-  
-<br />     
-<br />    
-  
-<!--<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=dhananjay6561.dhananjay6561&"  />
-</div> --> 
+# 👨‍💻 Software Developer
 
+[![MasterHead](https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif)](https://dhananjay6561.vercel.app)
 
-### Connect with me:
+<div style="text-align: center; width: 100vw;">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="MasterHead" style="width: 100%; max-width: 100vw;">
+</div>
+<h1 align="center">Hi 👋, I'm Dhananjay</h1>
+<h3 align="center">A passionate Full Stack Developer</h3>
+<img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 
-[<img align="left" alt="Profile | LinkedIn" width="22px" src="https://www.svgrepo.com/show/70809/linkedin.svg" />](https://www.linkedin.com/in/dhananjay6561/)
-[<img align="left" alt="Profile | Instagram" width="22px" src="https://www.svgrepo.com/show/111199/instagram.svg" />](https://www.instagram.com/dhananjaydontknow)
-[<img align="left" alt="Profile | LeetCode" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" />](https://leetcode.com/dhananjay6561/)
+- 🌱 I’m currently polishing **DSA and System Design**
+- 💪🏼 Future Goals: Keep building cool things and learning fast
+- 👯 Looking to collaborate on **creative full stack projects**
+- 📫 Reach me at **dhananjay6561@gmail.com**
+- ⚡ Fun fact: **"Don't know" is my actual username 😄**
 
+---
 
+## 🌐 Connect with Me
 
-<br />
-<br />
+<p align="left">
+  <a href="https://www.linkedin.com/in/dhananjay6561/" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  </a>
+  <a href="https://www.instagram.com/dhananjaydontknow" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
+  </a>
+  <a href="https://leetcode.com/dhananjay6561/" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
+  </a>
+</p>
 
-### Languages and Tools:
+---
 
-[<img align="left" alt="Visual Studio Code" width="45px" src="https://www.svgrepo.com/show/354522/visual-studio-code.svg" />](#)
-[<img align="left" alt="HTML5" width="45px" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" />](#)
-[<img align="left" alt="CSS3" width="45px" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" />](#)
-[<img align="left" alt="JavaScript" width="45px" src="https://www.svgrepo.com/show/353925/javascript.svg" />](#)
-[<img align="left" alt="React" width="45px" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" />](#)
-[<img align="left" alt="Tailwind" width="45px" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" />](#)
-[<img align="left" alt="Node.js" width="45px" src="https://www.svgrepo.com/show/378837/node.svg" />](#)
-[<img align="left" alt="MongoDB" width="45px" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" />](#)
-[<img align="left" alt="Firebase" width="45px" src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" />](#)
-[<img align="left" alt="Figma" width="45px" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" />](#)
-[<img align="left" alt="Python" width="45px" src="https://www.vectorlogo.zone/logos/python/python-icon.svg" />](#)
+<details>
+  <summary><b>🎖️ GSSoC 2024 Badges</b></summary><br>
+  <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/1.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/2.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/3.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/4.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/5.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/6.png" width="105" height="105" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/7.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/8.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Code%20Luminary.png" width="105" height="105" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Git%20Explorer.png" width="100" height="100" />
+    <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Pull%20Expert.png" width="100" height="100" />
+  </div>
+</details>
 
- 
-<br />
-<br />
-<br />
+---
 
-| 🔥 Streak | 📊 Stats |
-| --- | --- |
-| <img src="https://github-readme-streak-stats.herokuapp.com?user=dhananjay6561&theme=nightowl&hide_border=true" width="100%"> | <img src="https://github-readme-stats.vercel.app/api?username=dhananjay6561&count_private=trueshow_icons=true&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40&hide_border=true&rank_icon=github&show_icons=true" width="100%"> |
+## 🛠️ Languages and Tools
 
-<h2 align="center">📈 Other stats</h2>
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="Redux" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle" width="40" height="40"/>
+</p>
 
+---
 
-<a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
-  <img src="https://stats.quine.sh/dhananjay6561/github?theme=dark" width="48%"> 
-</a>
-<a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
-  <img src="https://stats.quine.sh/dhananjay6561/dependencies?theme=dark" width="48%"> 
-</a>
+## 📊 GitHub Stats
 
-
-<a href="https://quine.sh?utm_source=widgets&utm_campaign=dhananjay6561" target="_blank">
-  <img src="https://stats.quine.sh/dhananjay6561/languages-over-time?theme=dark" width="48%">
-</a>
-
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dhananjay6561&theme=darkhub" alt="dhananjay6561" /></a> </p>
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dhananjay6561&show_icons=true&theme=radical" alt="GitHub Stats"/>
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjay6561&theme=radical" alt="GitHub Streak"/>
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhananjay6561&layout=compact&theme=radical" alt="Top Languages"/>
+</p>
 
 
 ![Visitor Count](https://profile-counter.glitch.me/dhananjay6561/count.svg)
