@@ -79,13 +79,98 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<!--<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dhananjay6561&show_icons=true&theme=radical" alt="GitHub Stats"/>
   <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjay6561&theme=radical" alt="GitHub Streak"/>
   <br />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhananjay6561&layout=compact&theme=radical" alt="Top Languages"/>
-</p>
+</p>-->
+
+
+<!-- Enhanced GitHub Stats Cards -->
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dhananjay6561&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=79c0ff&text_color=c9d1d9&count_private=true&include_all_commits=true&custom_title=⭐%20GitHub%20Stats" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhananjay6561&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&layout=compact&langs_count=8&custom_title=💻%20Most%20Used%20Languages" alt="Top Languages"/>
+</div>
+
+<br>
+
+<!-- GitHub Summary Cards -->
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhananjay6561&theme=github_dark" alt="📈 Contribution Graph"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dhananjay6561&theme=github_dark" alt="📊 General Stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhananjay6561&theme=github_dark" alt="🔥 Top Languages by Commit"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhananjay6561&theme=github_dark" alt="📚 Top Languages by Repo"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dhananjay6561&theme=github_dark&utcOffset=5.5" alt="⏰ Commits by Hour (UTC +5:30)"/>
+</div>
+
+---
+
+<div align="center">
+
+## 🏅 **GitHub Activity & Achievements**
+
+</div>
+
+<!-- Activity Graph with Enhanced Styling -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dhananjay6561&theme=github-compact&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ffffff&area=true&hide_border=true&area_color=1f6feb" alt="Contribution Graph"/>
+</div>
+
+<br>
+
+<!-- Streak Stats with Glow Effect -->
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjay6561&theme=github-dark-blue&hide_border=true&stroke=58a6ff&background=0D1117&ring=58a6ff&fire=ffa657&currStreakLabel=58a6ff" alt="GitHub Streak Stats"/>
+</div>
+
+---
+
+<div align="center">
+
+## 🏆 **GitHub Trophies**
+
+</div>
+
+<!-- Enhanced Trophy Display -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dhananjay6561&theme=onestar&no-frame=false&no-bg=false&margin-w=25&margin-h=20&row=2&column=4&title=MultiLanguage,Commits,PullRequest,Followers,Issues,Repositories,Stars" alt="GitHub Trophies"/>
+</div>
+
+<br>
+
+<!-- Snake Animation -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AkashRajpurohit/AkashRajpurohit/master/assets/github-snake-dark.svg" alt="Snake Game Animation"/>
+</div>
+
+---
+
+
+
+<!--START_SECTION:activity-->
+<!-- This section will be automatically updated by GitHub Actions -->
+<!--END_SECTION:activity-->
+
+---
+
+<!-- Animated Footer -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=30&fontColor=ffffff&animation=twinkling"/>
+</div>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
 
 
 ![Visitor Count](https://profile-counter.glitch.me/dhananjay6561/count.svg)
