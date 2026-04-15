@@ -17,41 +17,6 @@
 
 ---
 
-## 🌐 Connect with Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/dhananjay6561/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://www.instagram.com/dhananjaydontknow" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
-  </a>
-  <a href="https://leetcode.com/dhananjay6561/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
-  </a>
-</p>
-
----
-
-<details>
-  <summary><b>🎖️ GSSoC 2024 Badges</b></summary><br>
-  <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/1.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/2.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/3.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/4.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/5.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/6.png" width="105" height="105" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/7.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/8.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Code%20Luminary.png" width="105" height="105" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Git%20Explorer.png" width="100" height="100" />
-    <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Pull%20Expert.png" width="100" height="100" />
-  </div>
-</details>
-
----
 
 ## 🛠️ Languages and Tools
 
@@ -139,23 +104,6 @@
 
 <div align="center">
 
-## 🏆 **GitHub Trophies**
-
-</div>
-
-<!-- Enhanced Trophy Display -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dhananjay6561&theme=onestar&no-frame=false&no-bg=false&margin-w=25&margin-h=20&row=2&column=4&title=MultiLanguage,Commits,PullRequest,Followers,Issues,Repositories,Stars" alt="GitHub Trophies"/>
-</div>
-
-<br>
-
-<!-- Snake Animation -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/AkashRajpurohit/AkashRajpurohit/master/assets/github-snake-dark.svg" alt="Snake Game Animation"/>
-</div>
-
----
 
 
 
@@ -163,13 +111,6 @@
 <!-- This section will be automatically updated by GitHub Actions -->
 <!--END_SECTION:activity-->
 
----
-
-<!-- Animated Footer -->
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=30&fontColor=ffffff&animation=twinkling"/>
-</div>
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 
 
