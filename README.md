@@ -92,4 +92,5 @@
 
 
 ![Visitor Count](https://profile-counter.glitch.me/dhananjay6561/count.svg)
+[![wakatime](https://wakatime.com/badge/user/071f0168-07df-40cf-be8e-c86ea25bf175.svg)](https://wakatime.com/@071f0168-07df-40cf-be8e-c86ea25bf175)
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=dhananjay6561.dhananjay6561" />
