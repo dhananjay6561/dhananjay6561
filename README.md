@@ -91,5 +91,7 @@
 
 
 
-![Profile Views](https://komarev.com/ghpvc/?username=dhananjay6561&label=Profile%20views&color=0e75b6&style=flat)
+<!-- profile-counter.glitch.me visitor counter is dead (verified HTTP 410 Gone x3 on 2026-09-27) - commented out, not deleted -->
+<!-- ![Visitor Count](https://profile-counter.glitch.me/dhananjay6561/count.svg) -->
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=dhananjay6561.dhananjay6561" />
 [![wakatime](https://wakatime.com/badge/user/071f0168-07df-40cf-be8e-c86ea25bf175.svg)](https://wakatime.com/@071f0168-07df-40cf-be8e-c86ea25bf175)
