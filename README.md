@@ -17,6 +17,21 @@
 - 
 ---
 
+## 📊 Contributions, live
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/summary-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/summary-light.svg"/><img src="assets/summary-light.svg" width="100%" alt="PRs merged, repositories, orgs, stars, merged in last 30 days"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/orgs-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/orgs-light.svg"/><img src="assets/orgs-light.svg" width="49%" alt="Merged PRs by org"/></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg"/><img src="assets/languages-light.svg" width="49%" alt="Merged PRs by language"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/monthly-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/monthly-light.svg"/><img src="assets/monthly-light.svg" width="100%" alt="Merged PRs per month"/></picture>
+
+<sub>Private repos and orgs included. Refreshed daily by a workflow in this repo.</sub>
+
+### 🌍 Merged into
+
+<sub>Click a logo to see the PRs.</sub><br/>
+<!--MERGED:START-->
+<a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Adhananjay6561+org%3Akeploy&type=pullrequests"><img src="https://github.com/keploy.png?size=80" width="40" alt="keploy" title="keploy"/></a> <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Adhananjay6561+org%3Agrafana&type=pullrequests"><img src="https://github.com/grafana.png?size=80" width="40" alt="grafana" title="grafana"/></a> <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Adhananjay6561+org%3Amicrosoft&type=pullrequests"><img src="https://github.com/microsoft.png?size=80" width="40" alt="microsoft" title="microsoft"/></a> <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Adhananjay6561+org%3Aebpf-io&type=pullrequests"><img src="https://github.com/ebpf-io.png?size=80" width="40" alt="ebpf-io" title="ebpf-io"/></a>
+<!--MERGED:END-->
+
 ## 📊 GitHub Stats
 
 <!--<p align="center">
