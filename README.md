@@ -38,6 +38,10 @@
 
 <sub>Every contribution since May 2023, private repos included. Refreshed daily by the same workflow.</sub>
 
+## 🛠️ Tech stack
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg"/><img src="assets/stack-light.svg" width="100%" alt="Tech stack: TypeScript, JavaScript, Python, Go, Kotlin, Java, React, Next.js, Vite, Tailwind CSS, Three.js, Node.js, Express, FastAPI, Flask, LangChain, OpenAI, scikit-learn, PostgreSQL, Supabase, Redis, Prisma, Docker, Kubernetes, GitHub Actions, Vercel, Jest, Vitest, pytest, Playwright, Android Studio, Jetpack Compose"/></picture>
+
 ---
 
 <div align="center">
