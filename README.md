@@ -1,20 +1,48 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg"/><img src="assets/header-light.svg" width="100%" alt="Dhananjay Aggarwal, DevRel Engineer at Keploy, Bangalore"/></picture>
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/dhananjay6561/">LinkedIn</a> ·
-  <a href="https://www.instagram.com/dhananjaydontknow">Instagram</a> ·
-  <a href="https://leetcode.com/u/dhananjay6561/">LeetCode</a> ·
-  <a href="https://linktr.ee/Dj6561">All links</a> ·
-  <a href="mailto:dhananjay6561@gmail.com">dhananjay6561@gmail.com</a>
+<a href="https://linktr.ee/Dj6561"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"/><img src="assets/hero-light.svg" width="100%" alt="Dhananjay Aggarwal, full stack developer from Bangalore, India. Building for the web, Android and AI agents."/></picture></a>
 </p>
 
-### ⚡ Right now
+## 🚧 Building right now
 
-- 🧪 **DevRel at [Keploy](https://github.com/keploy/keploy)**: demos and short videos on API testing from real traffic (record and replay with eBPF, no code changes)
-- 🤖 **100 Days of AI**: one real AI tool every day, broken down in a reel on [Instagram](https://www.instagram.com/dhananjaydontknow)
-- 🎨 **[design-md-hub](https://github.com/dhananjay6561/design-md-hub)**: 120 brand design systems as plain-text DESIGN.md specs for AI coding agents
-- 🧹 **[diskwhy](https://github.com/dhananjay6561/diskwhy)**: a Go CLI that finds what is eating your disk and cleans it up
-- 😄 Fun fact: "Don't know" really is my username
+<p>
+<a href="https://intervueclub.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-intervueclub-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/project-intervueclub-light.svg"/><img src="assets/project-intervueclub-light.svg" width="49%" alt="IntervueClub: free system design interview prep with deep-written problems and an HLD course, built with Next.js, Drizzle and Postgres"/></picture></a>
+<a href="https://github.com/dhananjay6561/dot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-dot-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/project-dot-light.svg"/><img src="assets/project-dot-light.svg" width="49%" alt="Dot: offline music player for Android and Nothing Phone with Glyph lights that react to the beat, built with Kotlin and Jetpack Compose"/></picture></a>
+</p>
+<p>
+<a href="https://github.com/dhananjay6561/design-md-hub"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-design-md-hub-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/project-design-md-hub-light.svg"/><img src="assets/project-design-md-hub-light.svg" width="49%" alt="design-md-hub: 120 brand design systems as DESIGN.md specs for AI coding agents"/></picture></a>
+<a href="https://github.com/dhananjay6561/diskwhy"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-diskwhy-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/project-diskwhy-light.svg"/><img src="assets/project-diskwhy-light.svg" width="49%" alt="diskwhy: a Go CLI that finds what is eating your disk and cleans it up"/></picture></a>
+</p>
+
+## 🤝 Let's connect
+
+<p>
+<a href="https://www.linkedin.com/in/dhananjay6561/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-linkedin-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/social-linkedin-light.svg"/><img src="assets/social-linkedin-light.svg" width="49%" alt="Connect with Dhananjay Aggarwal on LinkedIn"/></picture></a>
+<a href="https://www.instagram.com/dhananjaydontknow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-instagram-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/social-instagram-light.svg"/><img src="assets/social-instagram-light.svg" width="49%" alt="Follow @dhananjaydontknow on Instagram for 100 Days of AI"/></picture></a>
+</p>
+<p>
+<a href="https://leetcode.com/u/dhananjay6561/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-leetcode-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/social-leetcode-light.svg"/><img src="assets/social-leetcode-light.svg" width="49%" alt="Dhananjay Aggarwal on LeetCode"/></picture></a>
+<a href="mailto:dhananjay6561@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-email-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/social-email-light.svg"/><img src="assets/social-email-light.svg" width="49%" alt="Email Dhananjay at dhananjay6561@gmail.com"/></picture></a>
+</p>
+
+<details>
+<summary>About me, projects and links in plain text</summary>
+
+I'm **Dhananjay Aggarwal**, a full stack developer from Bangalore, India. I build web apps with Next.js and React, Android apps with Kotlin and Jetpack Compose, command-line tools in Go, and tooling for AI coding agents. I also break down one real AI tool a day in my **100 Days of AI** series on Instagram.
+
+### Projects
+
+- **[IntervueClub](https://intervueclub.com)**: free system design interview prep, with deep-written problems like WhatsApp, Ticketmaster, Dropbox and rate limiters, plus an HLD fundamentals course. Built with Next.js, Drizzle and Postgres.
+- **[Dot](https://github.com/dhananjay6561/dot)**: a free, offline music player for Android and Nothing Phone, with Glyph lights that react to the music, beat-synced crossfade, a 10-band EQ and synced lyrics. Built with Kotlin and Jetpack Compose.
+- **[design-md-hub](https://github.com/dhananjay6561/design-md-hub)**: 120 brand design systems as plain-text DESIGN.md specs for AI coding agents, reverse engineered from live production sites.
+- **[diskwhy](https://github.com/dhananjay6561/diskwhy)**: a developer-focused CLI for disk analysis and cleanup, written in Go.
+
+### Find me
+
+[LinkedIn](https://www.linkedin.com/in/dhananjay6561/) · [Instagram](https://www.instagram.com/dhananjaydontknow) · [LeetCode](https://leetcode.com/u/dhananjay6561/) · [All links](https://linktr.ee/Dj6561) · [Email](mailto:dhananjay6561@gmail.com)
+
+Fun fact: "Don't know" really is my username.
+
+</details>
 
 ---
 

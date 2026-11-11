@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="172" viewBox="0 0 412 172" role="img" aria-label="Curating design-md-hub: 120 brand design systems as DESIGN.md specs for AI coding agents. Built with Markdown, HTML."><title>Curating design-md-hub: 120 brand design systems as DESIGN.md specs for AI coding agents. Built with Markdown, HTML.</title><style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes ping{0%{transform:scale(1);opacity:.65}80%,100%{transform:scale(2.8);opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes glide{0%{transform:translateX(0);opacity:0}10%,90%{opacity:1}100%{transform:translateX(700px);opacity:0}}
+@keyframes line{0%,30%{opacity:1;transform:none}34%{opacity:0;transform:translateY(-10px)}35%,96%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:none}}
+@keyframes blink{50%{opacity:0}}
+@keyframes eq{0%,100%{opacity:1}50%{opacity:.15}}
+@keyframes fan{0%,100%{transform:rotate(var(--a))}50%{transform:rotate(calc(var(--a) * 1.6))}}
+@keyframes fill{0%,60%{transform:scaleX(1)}72%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+@keyframes nudge{0%,100%{transform:translate(0,0)}50%{transform:translate(3px,-3px)}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 28s linear infinite}
+.orbit{transform-box:view-box;animation:spin 9s linear infinite}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.4s ease-out infinite}
+.float{animation:float 4.5s ease-in-out infinite}
+.flow{stroke-dasharray:4 4;animation:flow 1.2s linear infinite}
+.glide{animation:glide 6s ease-in-out infinite}
+.line{opacity:0;animation:line 9s ease-in-out infinite}
+.blink{animation:blink 1.1s steps(1) infinite}
+.eq{animation:eq 1.4s ease-in-out infinite}
+.fan{transform-box:view-box;animation:fan 5s ease-in-out infinite}
+.fill{transform-box:fill-box;transform-origin:left;animation:fill 6s cubic-bezier(.3,.7,.2,1) infinite}
+.nudge{animation:nudge 2.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.line{opacity:0}.l0{opacity:1}}
+</style><rect x="0.5" y="0.5" width="411" height="171" rx="14" fill="#0d1117" stroke="#30363d"/><rect x="22" y="20" width="94" height="22" rx="11" fill="#161b22" stroke="#30363d"/><circle class="ping" cx="34" cy="31" r="3.5" fill="#3fb950"/><circle cx="34" cy="31" r="3.5" fill="#3fb950"/><text x="44" y="35" font-size="10.5" font-weight="700" letter-spacing="1.2" fill="#e6edf3">CURATING</text><g class="nudge"><path d="M375 38 L389 24 M379 24 H389 V34" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><text x="22" y="76" font-size="21" font-weight="700" letter-spacing="-0.4" fill="#e6edf3">design-md-hub</text><text x="22" y="100" font-size="12.5" fill="#8b949e">120 brand design systems as</text><text x="22" y="118" font-size="12.5" fill="#8b949e">DESIGN.md specs for AI coding agents.</text><text x="22" y="152" font-size="11.5" font-weight="600" fill="#58a6ff">Markdown · HTML</text><g class="fan" style="--a:-18deg;transform-origin:325px 150px"><rect x="303" y="64" width="44" height="78" rx="8" fill="#1DB954" stroke="#0d1117" stroke-width="2"/></g><g class="fan" style="--a:-9deg;transform-origin:325px 150px"><rect x="303" y="64" width="44" height="78" rx="8" fill="#635BFF" stroke="#0d1117" stroke-width="2"/></g><g class="fan" style="--a:0deg;transform-origin:325px 150px"><rect x="303" y="64" width="44" height="78" rx="8" fill="#FF5A5F" stroke="#0d1117" stroke-width="2"/></g><g class="fan" style="--a:9deg;transform-origin:325px 150px"><rect x="303" y="64" width="44" height="78" rx="8" fill="#F24E1E" stroke="#0d1117" stroke-width="2"/></g><g class="fan" style="--a:18deg;transform-origin:325px 150px"><rect x="303" y="64" width="44" height="78" rx="8" fill="#e6edf3" stroke="#0d1117" stroke-width="2"/></g></svg>
