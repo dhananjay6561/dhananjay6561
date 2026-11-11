@@ -40,7 +40,7 @@
 
 ## 🛠️ Tech stack
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg"/><img src="assets/stack-light.svg" width="100%" alt="Tech stack: TypeScript, JavaScript, Python, Go, Kotlin, Java, React, Next.js, Vite, Tailwind CSS, Three.js, Node.js, Express, FastAPI, Flask, LangChain, OpenAI, scikit-learn, PostgreSQL, Supabase, Redis, Prisma, Docker, Kubernetes, GitHub Actions, Vercel, Jest, Vitest, pytest, Playwright, Android Studio, Jetpack Compose"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg"/><img src="assets/stack-light.svg" width="100%" alt="Tech stack: TypeScript, JavaScript, Python, Go, Kotlin, Java, React, Next.js, Vite, Tailwind CSS, Three.js, Node.js, Express, FastAPI, Flask, LangChain, OpenAI, scikit-learn, Claude Code, Cursor, Codex, PostgreSQL, Supabase, Redis, Prisma, Docker, Kubernetes, GitHub Actions, Vercel, Jest, Vitest, pytest, Playwright, Android Studio, Jetpack Compose"/></picture>
 
 ---
 

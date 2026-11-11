@@ -19,13 +19,14 @@ STACK = [
     ("Frontend", ["react", "nextjs", "vite", "tailwind", "threejs"]),
     ("Backend", ["nodejs", "express", "fastapi", "flask"]),
     ("AI & ML", ["si:langchain", "si:openai", "sklearn"]),
+    ("AI agents", ["si:claude@claudecode", "si:cursor", "si:openai@codex"]),
     ("Databases", ["postgres", "supabase", "redis", "prisma"]),
     ("DevOps & cloud", ["docker", "kubernetes", "githubactions", "vercel"]),
     ("Testing", ["jest", "vitest", "si:pytest", "si:playwright"]),
     ("Mobile", ["androidstudio", "si:jetpackcompose"]),
 ]
 # brand colour per Simple Icons slug; None follows the theme's text colour
-SIMPLE_COLORS = {"langchain": None, "openai": None, "pytest": "#0A9EDC",
+SIMPLE_COLORS = {"langchain": None, "openai": None, "claude": "#D97757", "cursor": None, "pytest": "#0A9EDC",
                  "playwright": "#2EAD33", "jetpackcompose": "#4285F4"}
 TILE_BG = {"dark": "#242938", "light": "#F4F2ED"}  # skill-icons' own tile colours
 NAMES = {"ts": "TypeScript", "js": "JavaScript", "py": "Python", "go": "Go", "kotlin": "Kotlin",
@@ -35,8 +36,17 @@ NAMES = {"ts": "TypeScript", "js": "JavaScript", "py": "Python", "go": "Go", "ko
          "postgres": "PostgreSQL", "supabase": "Supabase", "redis": "Redis", "prisma": "Prisma",
          "docker": "Docker", "kubernetes": "Kubernetes", "githubactions": "GitHub Actions",
          "vercel": "Vercel", "jest": "Jest", "vitest": "Vitest", "pytest": "pytest",
-         "playwright": "Playwright", "androidstudio": "Android Studio", "jetpackcompose": "Jetpack Compose"}
-ICON, GAP = 44, 10
+         "playwright": "Playwright", "androidstudio": "Android Studio", "jetpackcompose": "Jetpack Compose",
+         "claudecode": "Claude Code", "cursor": "Cursor", "codex": "Codex"}
+# shorter captions where the full name will not fit under an icon
+CAPTIONS = {"githubactions": "GH Actions", "androidstudio": "Android", "jetpackcompose": "Compose",
+            "tailwind": "Tailwind"}
+ICON, SLOT = 44, 64
+
+
+def label_id(key):
+    # "si:openai@codex" draws the openai logo but is named Codex
+    return key.split("@")[-1].removeprefix("si:")
 
 
 def get(url):
@@ -57,7 +67,7 @@ def skill_icons(theme):
 
 def tile(key, theme, p, skills):
     if key.startswith("si:"):
-        slug = key[3:]
+        slug = key[3:].split("@")[0]
         path = re.search(r'<path d="([^"]+)"', get(f"https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/{slug}.svg")).group(1)
         color = SIMPLE_COLORS[slug] or p["fg"]
         svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">'
@@ -71,7 +81,7 @@ def tile(key, theme, p, skills):
 def stack_card(theme, p):
     skills = skill_icons(theme)
     col_w = (WIDE - 44) / 2
-    block_h = 96
+    block_h = 112
     rows = (len(STACK) + 1) // 2
     h = 58 + rows * block_h
     inner = heading(p, "Tech stack", "from the repos I ship")
@@ -80,10 +90,14 @@ def stack_card(theme, p):
         y0 = 58 + (g // 2) * block_h
         inner += f'<text x="{x0}" y="{y0 + 14}" font-size="12" font-weight="600" letter-spacing="0.4" fill="{p["dim"]}">{escape(label.upper())}</text>'
         for i, key in enumerate(keys):
-            name = NAMES[key.removeprefix("si:")]
-            inner += (f'<image href="{tile(key, theme, p, skills)}" x="{x0 + i * (ICON + GAP)}" y="{y0 + 26}" '
-                      f'width="{ICON}" height="{ICON}"><title>{escape(name)}</title></image>')
-    return frame(WIDE, h, p, "Tech stack: " + ", ".join(NAMES[k.removeprefix("si:")] for _, ks in STACK for k in ks), inner)
+            slug = label_id(key)
+            name = NAMES[slug]
+            mid = x0 + i * SLOT + SLOT / 2
+            inner += (f'<image href="{tile(key, theme, p, skills)}" x="{mid - ICON / 2:.1f}" y="{y0 + 26}" '
+                      f'width="{ICON}" height="{ICON}"><title>{escape(name)}</title></image>'
+                      f'<text x="{mid:.1f}" y="{y0 + 26 + ICON + 16}" text-anchor="middle" font-size="10.5" '
+                      f'fill="{p["fg"]}">{escape(CAPTIONS.get(slug, name))}</text>')
+    return frame(WIDE, h, p, "Tech stack: " + ", ".join(NAMES[label_id(k)] for _, ks in STACK for k in ks), inner)
 
 
 def main():
