@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Render contribution cards for the profile README from GitHub's API.
 
-Counts every merged PR the user authored, private repos and orgs included
-(needs a classic token with `repo` + `read:org` in GH_TOKEN). Writes
+Counts every merged PR the user authored into an organization's repos,
+private ones included (needs a classic token with `repo` + `read:org` in GH_TOKEN). Writes
 assets/<card>-{dark,light}.svg and refreshes the "merged into" logo row in
 README.md. Standard library only.
 """
@@ -18,7 +18,6 @@ from xml.sax.saxutils import escape
 
 USER = os.environ.get("GH_USER", "dhananjay6561")
 TOKEN = os.environ["GH_TOKEN"]
-INCLUDE_OWN = os.environ.get("INCLUDE_OWN", "1") == "1"
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 ASSETS = os.path.join(ROOT, "assets")
 README = os.path.join(ROOT, "README.md")
@@ -63,15 +62,15 @@ def graphql(query, **variables):
 
 def fetch_prs():
     # search caps at 1000 hits per query, so walk it one year at a time
-    scope = "" if INCLUDE_OWN else f" -user:{USER}"
     found = {}
     for year in range(2015, dt.date.today().year + 1):
-        q = f"is:pr is:merged author:{USER}{scope} created:{year}-01-01..{year}-12-31"
+        q = f"is:pr is:merged author:{USER} created:{year}-01-01..{year}-12-31"
         cursor = None
         while True:
             page = graphql(QUERY, q=q, cursor=cursor)["search"]
             for pr in page["nodes"]:
-                if pr:
+                # personal accounts are not orgs, so their repos are left out
+                if pr and pr["repository"]["owner"]["__typename"] == "Organization":
                     found[pr["url"]] = pr
             if not page["pageInfo"]["hasNextPage"]:
                 break
@@ -190,10 +189,9 @@ def monthly_card(p, months):
 
 
 def logo_row(prs):
-    # public org repos only: a link into a private repo would 404 for visitors
+    # public repos only: a link into a private repo would 404 for visitors
     counts = Counter(pr["repository"]["owner"]["login"] for pr in prs
-                     if not pr["repository"]["isPrivate"]
-                     and pr["repository"]["owner"]["__typename"] == "Organization")
+                     if not pr["repository"]["isPrivate"])
     links = []
     for org, _ in counts.most_common(14):
         url = f"https://github.com/search?q=is%3Apr+is%3Amerged+author%3A{USER}+org%3A{org}&type=pullrequests"
@@ -215,9 +213,7 @@ def update_readme(row):
 def main():
     prs = fetch_prs()
     repos = {pr["repository"]["nameWithOwner"]: pr["repository"] for pr in prs}
-    # personal accounts are not orgs, so they only count toward the totals
-    orgs = Counter(pr["repository"]["owner"]["login"] for pr in prs
-                   if pr["repository"]["owner"]["__typename"] == "Organization")
+    orgs = Counter(pr["repository"]["owner"]["login"] for pr in prs)
     stars = sum(r["stargazerCount"] for r in repos.values())
 
     lang_count, lang_color = Counter(), {}

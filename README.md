@@ -23,7 +23,7 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/orgs-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/orgs-light.svg"/><img src="assets/orgs-light.svg" width="49%" alt="Merged PRs by org"/></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg"/><img src="assets/languages-light.svg" width="49%" alt="Merged PRs by language"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/monthly-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/monthly-light.svg"/><img src="assets/monthly-light.svg" width="100%" alt="Merged PRs per month"/></picture>
 
-<sub>Private repos and orgs included. Refreshed daily by a workflow in this repo.</sub>
+<sub>Merged PRs into org repos, private ones included. Refreshed daily by a workflow in this repo.</sub>
 
 ### 🌍 Merged into
 
