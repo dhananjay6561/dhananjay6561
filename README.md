@@ -30,64 +30,13 @@
 <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Adhananjay6561+org%3Akeploy&type=pullrequests"><img src="https://github.com/keploy.png?size=80" width="40" alt="keploy" title="keploy"/></a> <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Adhananjay6561+org%3Agrafana&type=pullrequests"><img src="https://github.com/grafana.png?size=80" width="40" alt="grafana" title="grafana"/></a> <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Adhananjay6561+org%3Amicrosoft&type=pullrequests"><img src="https://github.com/microsoft.png?size=80" width="40" alt="microsoft" title="microsoft"/></a> <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Adhananjay6561+org%3Aebpf-io&type=pullrequests"><img src="https://github.com/ebpf-io.png?size=80" width="40" alt="ebpf-io" title="ebpf-io"/></a>
 <!--MERGED:END-->
 
-## 📊 GitHub Stats
+## 📈 GitHub stats
 
-<!--<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dhananjay6561&show_icons=true&theme=radical" alt="GitHub Stats"/>
-  <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjay6561&theme=radical" alt="GitHub Streak"/>
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhananjay6561&layout=compact&theme=radical" alt="Top Languages"/>
-</p>-->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/lifetime-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/lifetime-light.svg"/><img src="assets/lifetime-light.svg" width="100%" alt="Lifetime contributions, commits, pull requests, issues, code reviews and longest streak"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/calendar-light.svg"/><img src="assets/calendar-light.svg" width="100%" alt="Contribution calendar for the last year"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/langs-light.svg"/><img src="assets/langs-light.svg" width="49%" alt="Languages by code in my repos"/></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/weekdays-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/weekdays-light.svg"/><img src="assets/weekdays-light.svg" width="49%" alt="Contributions by weekday"/></picture>
 
-
-
-<!-- Enhanced GitHub Stats Cards -->
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dhananjay6561&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=79c0ff&text_color=c9d1d9&count_private=true&include_all_commits=true&custom_title=⭐%20GitHub%20Stats" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhananjay6561&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&layout=compact&langs_count=8&custom_title=💻%20Most%20Used%20Languages" alt="Top Languages"/>
-</div>
-
-<br>
-
-<!-- GitHub Summary Cards -->
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhananjay6561&theme=github_dark" alt="📈 Contribution Graph"/>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dhananjay6561&theme=github_dark" alt="📊 General Stats"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhananjay6561&theme=github_dark" alt="🔥 Top Languages by Commit"/>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhananjay6561&theme=github_dark" alt="📚 Top Languages by Repo"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dhananjay6561&theme=github_dark&utcOffset=5.5" alt="⏰ Commits by Hour (UTC +5:30)"/>
-</div>
-
----
-
-<div align="center">
-
-## 🏅 **GitHub Activity & Achievements**
-
-</div>
-
-<!-- Activity Graph with Enhanced Styling -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dhananjay6561&theme=github-compact&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ffffff&area=true&hide_border=true&area_color=1f6feb" alt="Contribution Graph"/>
-</div>
-
-<br>
-
-<!-- Streak Stats with Glow Effect -->
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjay6561&theme=github-dark-blue&hide_border=true&stroke=58a6ff&background=0D1117&ring=58a6ff&fire=ffa657&currStreakLabel=58a6ff" alt="GitHub Streak Stats"/>
-</div>
+<sub>Every contribution since May 2023, private repos included. Refreshed daily by the same workflow.</sub>
 
 ---
 
