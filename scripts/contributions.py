@@ -128,11 +128,11 @@ def summary_card(p, tiles):
     return frame(WIDE, h, p, "Contribution summary", inner)
 
 
-def owners_card(p, owners, avatars, h):
+def orgs_card(p, orgs, avatars, h):
     row = 30
-    peak = owners[0][1]
-    inner = heading(p, "Where my PRs land", w=HALF)
-    for i, (login, n) in enumerate(owners):
+    peak = orgs[0][1]
+    inner = heading(p, "Top orgs by merged PRs", w=HALF)
+    for i, (login, n) in enumerate(orgs):
         y = 54 + i * row
         if avatars.get(login):
             inner += (f'<clipPath id="a{i}"><rect x="22" y="{y}" width="20" height="20" rx="5"/></clipPath>'
@@ -215,7 +215,9 @@ def update_readme(row):
 def main():
     prs = fetch_prs()
     repos = {pr["repository"]["nameWithOwner"]: pr["repository"] for pr in prs}
-    owners = Counter(pr["repository"]["owner"]["login"] for pr in prs)
+    # personal accounts are not orgs, so they only count toward the totals
+    orgs = Counter(pr["repository"]["owner"]["login"] for pr in prs
+                   if pr["repository"]["owner"]["__typename"] == "Organization")
     stars = sum(r["stargazerCount"] for r in repos.values())
 
     lang_count, lang_color = Counter(), {}
@@ -241,23 +243,23 @@ def main():
     since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)).isoformat()
     recent = sum(1 for pr in prs if pr["mergedAt"] >= since)
 
-    top_owners = owners.most_common(8)
-    avatars = {login: avatar_uri(login) for login, _ in top_owners}
-    pair_h = 54 + 30 * len(top_owners) + 12
+    top_orgs = orgs.most_common(8)
+    avatars = {login: avatar_uri(login) for login, _ in top_orgs}
+    pair_h = 54 + 30 * len(top_orgs) + 12
     tiles = [(short(len(prs)), "PRs merged", "blue"), (short(len(repos)), "repositories", "fg"),
-             (short(len(owners)), "orgs & owners", "fg"), (short(stars), "stars on those repos", "fg"),
+             (short(len(orgs)), "orgs", "fg"), (short(stars), "stars on those repos", "fg"),
              (str(recent), "merged in last 30 days", "orange")]
 
     os.makedirs(ASSETS, exist_ok=True)
     for theme, p in PALETTES.items():
-        cards = {"summary": summary_card(p, tiles), "orgs": owners_card(p, top_owners, avatars, pair_h),
+        cards = {"summary": summary_card(p, tiles), "orgs": orgs_card(p, top_orgs, avatars, pair_h),
                  "languages": languages_card(p, langs, pair_h), "monthly": monthly_card(p, months)}
         for name, svg in cards.items():
             with open(os.path.join(ASSETS, f"{name}-{theme}.svg"), "w") as f:
                 f.write(svg)
     update_readme(logo_row(prs))
     print(f"{len(prs)} merged ({sum(r['isPrivate'] for r in repos.values())} private repos), "
-          f"{len(repos)} repos, {len(owners)} owners, {stars} stars, {recent} in last 30 days")
+          f"{len(repos)} repos, {len(orgs)} orgs, {stars} stars, {recent} in last 30 days")
 
 
 if __name__ == "__main__":
