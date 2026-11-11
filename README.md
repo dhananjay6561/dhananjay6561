@@ -1,18 +1,21 @@
-# 👨‍💻 Software Developer
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg"/><img src="assets/header-light.svg" width="100%" alt="Dhananjay Aggarwal, DevRel Engineer at Keploy, Bangalore"/></picture>
 
-<div style="text-align: center; width: 100vw;">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="MasterHead" style="width: 100%; max-width: 100vw;">
-</div>
-<h1 align="center">Hi 👋, I'm Dhananjay</h1>
-<h3 align="center">A passionate Full Stack Developer</h3>
-<img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
+<p align="center">
+  <a href="https://www.linkedin.com/in/dhananjay6561/">LinkedIn</a> ·
+  <a href="https://www.instagram.com/dhananjaydontknow">Instagram</a> ·
+  <a href="https://leetcode.com/u/dhananjay6561/">LeetCode</a> ·
+  <a href="https://linktr.ee/Dj6561">All links</a> ·
+  <a href="mailto:dhananjay6561@gmail.com">dhananjay6561@gmail.com</a>
+</p>
 
-- 🌱 I’m currently polishing **DSA and System Design**
-- 💪🏼 Future Goals: Keep building cool things and learning fast
-- 👯 Looking to collaborate on **creative full stack projects**
-- 📫 Reach me at **dhananjay6561@gmail.com**
-- ⚡ Fun fact: **"Don't know" is my actual username 😄**
-- 
+### ⚡ Right now
+
+- 🧪 **DevRel at [Keploy](https://github.com/keploy/keploy)**: demos and short videos on API testing from real traffic (record and replay with eBPF, no code changes)
+- 🤖 **100 Days of AI**: one real AI tool every day, broken down in a reel on [Instagram](https://www.instagram.com/dhananjaydontknow)
+- 🎨 **[design-md-hub](https://github.com/dhananjay6561/design-md-hub)**: 120 brand design systems as plain-text DESIGN.md specs for AI coding agents
+- 🧹 **[diskwhy](https://github.com/dhananjay6561/diskwhy)**: a Go CLI that finds what is eating your disk and cleans it up
+- 😄 Fun fact: "Don't know" really is my username
+
 ---
 
 ## 📊 Contributions, live
