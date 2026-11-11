@@ -33,7 +33,7 @@
 ## 📈 GitHub stats
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/lifetime-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/lifetime-light.svg"/><img src="assets/lifetime-light.svg" width="100%" alt="Lifetime contributions, commits, pull requests, issues, code reviews and longest streak"/></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/calendar-light.svg"/><img src="assets/calendar-light.svg" width="100%" alt="Contribution calendar for the last year"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/monthly-contribs-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/monthly-contribs-light.svg"/><img src="assets/monthly-contribs-light.svg" width="100%" alt="Contributions per month"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/langs-light.svg"/><img src="assets/langs-light.svg" width="49%" alt="Languages by code in my repos"/></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/weekdays-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="assets/weekdays-light.svg"/><img src="assets/weekdays-light.svg" width="49%" alt="Contributions by weekday"/></picture>
 
 <sub>Every contribution since May 2023, private repos included. Refreshed daily by the same workflow.</sub>
