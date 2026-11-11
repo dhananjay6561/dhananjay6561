@@ -78,10 +78,10 @@ def fetch_prs():
     return list(found.values())
 
 
-def avatar_uri(login):
+def avatar_uri(login, size=48):
     # GitHub's image proxy blocks remote images inside SVGs, so inline them
     try:
-        req = urllib.request.Request(f"https://github.com/{login}.png?size=48",
+        req = urllib.request.Request(f"https://github.com/{login}.png?size={size}",
                                      headers={"User-Agent": USER})
         with urllib.request.urlopen(req, timeout=30) as resp:
             return "data:image/png;base64," + base64.b64encode(resp.read()).decode()
