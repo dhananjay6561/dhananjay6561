@@ -17,7 +17,7 @@ from collections import Counter, defaultdict
 from xml.sax.saxutils import escape
 
 USER = os.environ.get("GH_USER", "dhananjay6561")
-TOKEN = os.environ["GH_TOKEN"]
+TOKEN = os.environ.get("GH_TOKEN", "")
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 ASSETS = os.path.join(ROOT, "assets")
 README = os.path.join(ROOT, "README.md")
