@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Render contribution cards for the profile README from GitHub's API.
 
-Counts every merged PR the user authored into an organization's repos,
+Counts every merged PR the user authored into an organization's repos, or into
+a popular repo of another person's account (MIN_PERSONAL_STARS or more stars),
 private ones included (needs a classic token with `repo` + `read:org` in GH_TOKEN). Writes
 assets/<card>-{dark,light}.svg and refreshes the "merged into" logo row in
 README.md. Standard library only.
@@ -30,6 +31,8 @@ PALETTES = {
 }
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 WIDE, HALF = 840, 412
+# repos of other people's personal accounts count once they have this many stars
+MIN_PERSONAL_STARS = 1000
 
 QUERY = """
 query($q: String!, $cursor: String) {
@@ -60,6 +63,15 @@ def graphql(query, **variables):
     return payload["data"]
 
 
+def counts_repo(repo):
+    # org repos always count; other people's personal repos only when popular,
+    # and the user's own repos never do
+    owner = repo["owner"]
+    if owner["__typename"] == "Organization":
+        return True
+    return owner["login"].lower() != USER.lower() and repo["stargazerCount"] >= MIN_PERSONAL_STARS
+
+
 def fetch_prs():
     # search caps at 1000 hits per query, so walk it one year at a time
     found = {}
@@ -69,8 +81,7 @@ def fetch_prs():
         while True:
             page = graphql(QUERY, q=q, cursor=cursor)["search"]
             for pr in page["nodes"]:
-                # personal accounts are not orgs, so their repos are left out
-                if pr and pr["repository"]["owner"]["__typename"] == "Organization":
+                if pr and counts_repo(pr["repository"]):
                     found[pr["url"]] = pr
             if not page["pageInfo"]["hasNextPage"]:
                 break
@@ -192,9 +203,12 @@ def logo_row(prs):
     # public repos only: a link into a private repo would 404 for visitors
     counts = Counter(pr["repository"]["owner"]["login"] for pr in prs
                      if not pr["repository"]["isPrivate"])
+    # search filters an org's repos with org: and a person's with user:
+    kinds = {pr["repository"]["owner"]["login"]: pr["repository"]["owner"]["__typename"] for pr in prs}
     links = []
     for org, _ in counts.most_common(14):
-        url = f"https://github.com/search?q=is%3Apr+is%3Amerged+author%3A{USER}+org%3A{org}&type=pullrequests"
+        qualifier = "org" if kinds[org] == "Organization" else "user"
+        url = f"https://github.com/search?q=is%3Apr+is%3Amerged+author%3A{USER}+{qualifier}%3A{org}&type=pullrequests"
         links.append(f'<a href="{url}"><img src="https://github.com/{org}.png?size=80" width="40" '
                      f'alt="{org}" title="{org}"/></a>')
     return " ".join(links)
