@@ -24,8 +24,20 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.STATS_TOKEN }}
       - name: Commit if changed
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets README.md
-          git diff --cached --quiet || { git commit -m "refresh profile cards" && git pull --rebase --autostash origin main && git push; }
+          for attempt in 1 2 3; do
+            git add assets README.md
+            git diff --cached --quiet && exit 0
+            git commit -q -m "refresh profile cards"
+            git push && exit 0
+            echo "main moved, regenerating the cards on top of it"
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 scripts/contributions.py
+            python3 scripts/profile_stats.py
+          done
+          exit 1
