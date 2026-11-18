@@ -2,7 +2,7 @@ name: Refresh profile cards
 
 on:
   schedule:
-    - cron: "23 2,8,14,20 * * *"
+    - cron: "23 */2 * * *"
   workflow_dispatch:
 
 permissions:
