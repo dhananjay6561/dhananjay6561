@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Render contribution cards for the profile README from GitHub's API.
 
-Counts every merged PR the user authored into an organization's repos, or into
-a popular repo of another person's account (MIN_PERSONAL_STARS or more stars),
-private ones included (needs a classic token with `repo` + `read:org` in GH_TOKEN). Writes
+Counts every merged PR the user authored into an organization's repos, private
+ones included (needs a classic token with `repo` + `read:org` in GH_TOKEN), or
+into a public, popular repo of another person's account (MIN_PERSONAL_STARS or
+more stars). Writes
 assets/<card>-{dark,light}.svg and refreshes the "merged into" logo row in
 README.md. Standard library only.
 """
