@@ -64,12 +64,13 @@ def graphql(query, **variables):
 
 
 def counts_repo(repo):
-    # org repos always count; other people's personal repos only when popular,
-    # and the user's own repos never do
+    # org repos always count, private ones too; other people's personal repos only
+    # when public and popular, and the user's own repos never do
     owner = repo["owner"]
     if owner["__typename"] == "Organization":
         return True
-    return owner["login"].lower() != USER.lower() and repo["stargazerCount"] >= MIN_PERSONAL_STARS
+    return (owner["login"].lower() != USER.lower() and not repo["isPrivate"]
+            and repo["stargazerCount"] >= MIN_PERSONAL_STARS)
 
 
 def fetch_prs():
