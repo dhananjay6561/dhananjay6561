@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Render contribution cards for the profile README from GitHub's API.
 
-Counts every merged PR the user authored into an organization's repos, private
-ones included (needs a classic token with `repo` + `read:org` in GH_TOKEN), or
-into a public, popular repo of another person's account (MIN_PERSONAL_STARS or
-more stars). Writes
+Counts every merged PR the user authored into an organization's repos, or into
+a popular repo of another person's account (MIN_PERSONAL_STARS or more stars),
+private ones included (needs a classic token with `repo` + `read:org` in GH_TOKEN). Writes
 assets/<card>-{dark,light}.svg and refreshes the "merged into" logo row in
 README.md. Standard library only.
 """
@@ -65,13 +64,12 @@ def graphql(query, **variables):
 
 
 def counts_repo(repo):
-    # org repos always count, private ones too; other people's personal repos only
-    # when public and popular, and the user's own repos never do
+    # org repos always count; other people's personal repos only when popular,
+    # and the user's own repos never do
     owner = repo["owner"]
     if owner["__typename"] == "Organization":
         return True
-    return (owner["login"].lower() != USER.lower() and not repo["isPrivate"]
-            and repo["stargazerCount"] >= MIN_PERSONAL_STARS)
+    return owner["login"].lower() != USER.lower() and repo["stargazerCount"] >= MIN_PERSONAL_STARS
 
 
 def fetch_prs():
