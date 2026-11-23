@@ -206,7 +206,7 @@ def logo_row(prs):
     # search filters an org's repos with org: and a person's with user:
     kinds = {pr["repository"]["owner"]["login"]: pr["repository"]["owner"]["__typename"] for pr in prs}
     links = []
-    for org, _ in counts.most_common(14):
+    for org, _ in counts.most_common():
         qualifier = "org" if kinds[org] == "Organization" else "user"
         url = f"https://github.com/search?q=is%3Apr+is%3Amerged+author%3A{USER}+{qualifier}%3A{org}&type=pullrequests"
         links.append(f'<a href="{url}"><img src="https://github.com/{org}.png?size=80" width="40" '
