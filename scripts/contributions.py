@@ -253,7 +253,7 @@ def main():
     since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)).isoformat()
     recent = sum(1 for pr in prs if pr["mergedAt"] >= since)
 
-    top_orgs = orgs.most_common(8)
+    top_orgs = orgs.most_common(10)
     avatars = {login: avatar_uri(login) for login, _ in top_orgs}
     pair_h = 54 + 30 * len(top_orgs) + 12
     tiles = [(short(len(prs)), "PRs merged", "blue"), (short(len(repos)), "repositories", "fg"),
